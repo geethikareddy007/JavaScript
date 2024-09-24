@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grand-parent{
+            border: 2px solid;
+            height: 300px;
+            width: 300px;
+        }
+        #parent{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        #child{
+            border: 2px solid;
+            height: 100px;
+            width: 100px;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grand-parent">grand-parent
+        <div id="parent">parent
+            <div id="child">child</div>
+        </div>
+    </div>
+    <script src="./propogation.js"></script>
+</body>
+</html>
